@@ -1,0 +1,280 @@
+
+ .a{
+    height: 100px;
+  }
+
+  body{
+    background:#000;
+    background-image:url(../MEDIA/IMAGES/wave.gif);
+     background-size: cover;
+     background-repeat: none;
+    }
+
+
+  .badaudio{
+    width: 240px;
+    height: 40px;
+    position: center;
+    
+   }
+  
+  .badbunny{
+    width: 800px;
+    height: 550px;
+    background:url(../MEDIA/IMAGES/BB_GhostRoomy_0409.gif);
+    background-size: cover;
+    margin:auto;
+    border:10px solid #e3daf3;
+    outline:1px solid #111;
+    overflow: hidden;
+    transition: all ease-in-out 1s;
+  }
+  
+  .namebad{
+    display: flex;
+    color: #dfcef1;
+    text-transform:lowercase;
+    text-align: center;
+    width: 300px;
+    height: 550px;
+    margin: auto;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .bad1{
+    font-family: chill;
+    font-size: 210px;
+    position: relative;
+    left:-40px;
+    transition: all ease-in-out 0.9s;
+    transition-delay: 0.8s;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 2.5px;
+  }
+  
+  .bad2{
+    font-family: chill;
+    font-size: 210px;
+    position: relative;
+    right: -40px;
+    transition: all ease-in-out 0.8s;
+    transition-delay: 0.8s;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 2.5px;
+  }
+  
+  .badbunny:hover .bad1{
+    left: -500px;
+    transition: all ease-in-out 0.8s;
+  }
+  
+  .badbunny:hover .bad2{
+    right: -500px;
+    transition: all ease-in-out 0.8s;
+  }
+  
+  .badbunny:hover{
+    background:url(../MEDIA/IMAGES/badbunny1.jpeg);
+    background-position: center;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    transition: all ease-in-out 1s;
+  }
+  
+  .box-bad{
+    width: 800px;
+    height: 550px;
+    position: relative;
+    top: -550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: rajdhani;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing:1px;
+  }
+  
+  .datobad{
+    width: 240px;
+    height: 380px;
+    background:rgba(0,0,0,0.6);
+    color: #ccc;
+    padding:40px;
+    line-height: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -520px;
+    transition: all ease-in-out 0.8s;
+  }
+  
+  .dbunny{
+    width: 240px;
+    border-bottom:1px solid #5c4763;
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+    padding-bottom:1px;
+    justify-content: space-between;
+  }
+  
+  .datobad m{
+    font-weight: 700;
+  }
+  
+  .datobad n{
+    text-align: right;
+  }
+  
+  .badquote{
+    background:#5c4763;
+    padding:10px;
+    text-align: center;
+    height: 60px;
+    line-height: 10px;
+  }
+  
+  .bdgif{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border:10px solid #222;
+    margin: auto;
+    margin-bottom: 20px;
+    background:url(../MEDIA/IMAGES/bd.gif) center 20%;
+  }
+  
+  .musicbad{
+    width: 240px;
+    height: 380px;
+    background:rgba(0,0,0,0.6);
+    margin-left: 40px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: -520px;
+    transition: all ease-in-out 0.8s;
+  }
+  
+  .badbunny:hover .musicbad{
+    bottom: 0px;
+    transition: all ease-in-out 0.8s;
+    transition-delay: 0.8s;
+  }
+  
+  
+  .mbad{
+    width: 240px;
+    display: flex;
+    align-items: center;
+    background:rgba(0,0,0,0.4);
+    padding:4px;
+    line-height: 10px;
+  }
+  
+  .badbunny:hover .datobad{
+    top: 0px;
+    transition: all ease-in-out 0.8s;
+    transition-delay: 0.8s;
+  }
+  
+  .mbad i{
+    font-size: 20px;
+    color: #f0f0f0;
+    padding:10px;
+  }
+  
+  .mbad a:hover{
+    color: #f0f0f0;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .mbad a{
+    width: 70px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #a182ac;
+    border:0;
+    text-decoration: none;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .mbad m{
+    font-size: 11px;
+    color: #999;
+    margin-left: 5px;
+    display: flex;
+  }
+  
+  .mbad m:before{
+    content: '/';
+    font-weight: 700;
+    color: #5c4763;
+    margin-right: 10px;
+  }
+  
+  .lyric{
+    font-family: rajdhani;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #ccc;
+    position: relative;
+    top: -600px;
+    text-align: center;
+    line-height: 10px;
+    transition: all ease-in-out 0.8s;
+    transition-delay: 1s;
+  }
+
+  .badbunny:hover .lyric{
+    filter:blur(10px);
+    opacity:0;
+    transition: all ease-in-out 0.8s;
+  }
+
+  .b{
+    position: center;
+  }
+
+  audio::-webkit-media-controls-panel {
+    background-color: #bd7dcd;
+  }
+  
+  audio::-webkit-media-controls-play-button {
+    background-color: #cceacb;
+    border-radius: 50%;
+  }
+  
+  audio::-webkit-media-controls-play-button:hover {
+    background-color: rgba(177,212,224, .7);
+  }
+
+  h1{ 
+    font-size: 10px;
+    text-align: auto;
+   color: #dbd3e6; 
+   letter-spacing: 1.5px;
+  }
+
+  h2{ 
+    font-size: 12px;
+    text-align: center;
+   color: #c6ebdb; 
+   letter-spacing: 2.5px;
+   }
+  
+  @font-face {
+  font-family: 'Chill';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../MEDIA/FONT/Api.ttf') format('woff');
+  }
+
+  
